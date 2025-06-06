@@ -1,0 +1,55 @@
+.sprint2body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Navigation styling */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Container for images */
+.sprint2container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: calc(100vh - 150px); /* Subtract space for header and nav */
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.sprint2container img {
+    max-width: calc(100vw / 3 - 30px);
+    max-height: 100%;
+    object-fit: contain;
+    flex: 1;
+}
